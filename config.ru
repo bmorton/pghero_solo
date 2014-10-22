@@ -6,7 +6,7 @@ require "rails/all"
 
 class PGHeroSolo < Rails::Application
   routes.append do
-    mount PgHero::Engine, at: "/"
+    mount PgHero::Engine, at: ENV['MOUNTPOINT'] || "/"
   end
 
   config.cache_classes = true
