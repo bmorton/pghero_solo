@@ -50,11 +50,11 @@ GEM
       mime-types (>= 1.16, < 3)
     mime-types (2.99.1)
     mini_portile2 (2.0.0)
-    minitest (5.8.4)
+    minitest (5.9.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     pg (0.18.4)
-    pghero (1.2.2)
+    pghero (1.5.1)
       activerecord
     puma (3.0.2)
     rack (1.6.4)
