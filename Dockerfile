@@ -1,4 +1,4 @@
-FROM ruby:2.3.0
+FROM ruby:2.3.1
 MAINTAINER Brian Morton "bmorton@yammer-inc.com"
 
 # Install dependencies for gems
